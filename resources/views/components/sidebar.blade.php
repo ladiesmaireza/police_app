@@ -33,6 +33,12 @@
                         <span class="hide-menu">Vehicles</span>
                     </a>
                 </li>
+                <li class="sidebar-item">
+        <a class="sidebar-link" href="{{ route('officers.index') }}" aria-expanded="false">
+            <i class="ti ti-user-shield"></i>
+            <span class="hide-menu">Officer</span>
+        </a>
+    </li>
         </nav>
         <!-- End Sidebar navigation -->
     </div>

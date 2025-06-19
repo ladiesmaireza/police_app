@@ -103,7 +103,7 @@ class AuthController extends Controller
 
     public function loginPage()
     {
-        return view('login');
+        return view('dashboard.login');
     }
 
     public function registerPage()
